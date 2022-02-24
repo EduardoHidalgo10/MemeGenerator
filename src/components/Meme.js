@@ -78,7 +78,7 @@ export const Meme = () => {
             </div>
 
             <div className="row mt-5 text-center">
-                < button onClick={handleClick} className='btn'>Get a new Meme image <FcAddImage size={30} /></button>
+                < button onClick={handleClick} className='btn'>Get a new Meme display <FcAddImage size={30} /></button>
             </div>
 
 
