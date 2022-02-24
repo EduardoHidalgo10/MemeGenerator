@@ -1,13 +1,89 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+
+.navbar{
+  background: linear-gradient(90deg,#672280 1.18%,#A626d3 100%);
+  color:white;
+  display: flex;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar img {
+  width: 60px;
+}
+
+.navbar h3 {
+  padding: 3px;
+  margin-left: 15px;
+  
+}
+
+.navbar h4 {
+  margin-right: 30px;
+}
+
+
+.meme-container input{
+  width:50%;
+  margin-left: 20%;
+
+}
+
+
+.meme-container button {
+  background: linear-gradient(90deg,#672280 1.18%,#A626d3 100%);
+  color: white;
+  width: 30%;
+  margin-left: 33%;
+
+}
+
+.meme-container button:hover {
+  color: white;
+}
+
+.meme-container {
+  position: relative;
+}
+
+.meme-img {
+ 
+  max-width: 100%;
+    border-radius: 3px;
+}
+
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+  margin-top: 15%;
 }
